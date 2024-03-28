@@ -6,8 +6,8 @@
 /* empty css               */
 /* empty css               */
 /* empty css               */
-import {e as T, G as z, j as G, i as o, f as H, g as k, H as J, t as K, r as O, J as P, U as Q, K as R, L as W, B as X, c as m, a as u, w as h, p as B, b as a, h as d, N as C, F as Y, z as Z, q as ll, o as i, d as F, A as D, O as el, P as al, Q as ul} from "./index.16ec0bdc.js";
-import {_ as vl} from "./plugin-vue_export-helper.21dcd24c.js";
+import { e as T, G as z, j as G, i as o, f as H, g as k, H as J, t as K, r as O, J as P, U as Q, K as R, L as W, B as X, c as m, a as u, w as h, p as B, b as a, h as d, N as C, F as Y, z as Z, q as ll, o as i, d as F, A as D, O as el, P as al, Q as ul } from "./index.16ec0bdc.js";
+import { _ as vl } from "./plugin-vue_export-helper.21dcd24c.js";
 var ol = [{
     value: 51,
     label: "\u5934\u90E8",
@@ -236,7 +236,7 @@ var ol = [{
     }, {
         label: "\u5148\u9a71\u7684\u6cca\u661f\u6869\u951a",
         value: 61174
-    },{
+    }, {
         label: "\u949f\u8868\u5320\u7684\u7a7a\u5e7b\u793c\u670d",
         value: 61184,
     }]
@@ -279,6 +279,12 @@ var ol = [{
     }, {
         label: "\u5339\u8BFA\u5EB7\u5C3C\u7684\u5802\u7687\u9152\u5E97",
         value: 63125
+    }, {
+        label: "\u8328\u5188\u5c3c\u4e9a\u7684\u6bcd\u795e\u5367\u69bb",
+        value: 33135
+    }, {
+        label: "\u51fa\u4e91\u7684\u7978\u6d25\u4f17\u795e",
+        value: 33145
     }]
 }, {
     value: 56,
@@ -319,311 +325,317 @@ var ol = [{
     }, {
         label: "\u5339\u8BFA\u5EB7\u5C3C\u7684\u9010\u68A6\u8F68\u9053",
         value: 63126
+    }, {
+        label: "\u8328\u5188\u5c3c\u4e9a\u7684\u8f6e\u56de\u7ebd\u7ed3",
+        value: 63136
+    }, {
+        label: "\u51fa\u4e91\u7684\u7ec8\u59cb\u4e00\u5200",
+        value: 63146
     }]
-}]
-  , tl = [{
-    value: 1,
-    label: "\u5934\u90E8",
-    children: [{
+}],
+    tl = [{
+        value: 1,
+        label: "\u5934\u90E8",
+        children: [{
+            label: "\u56FA\u5B9A\u751F\u547D",
+            value: "a1"
+        }]
+    }, {
+        value: 2,
+        label: "\u624B\u90E8",
+        children: [{
+            label: "\u56FA\u5B9A\u653B\u51FB",
+            value: "b1"
+        }]
+    }, {
+        value: 3,
+        label: "\u8EAF\u5E72",
+        children: [{
+            label: "\u767E\u5206\u6BD4\u751F\u547D",
+            value: "c1"
+        }, {
+            label: "\u56FA\u5B9A\u653B\u51FB",
+            value: "c2"
+        }, {
+            label: "\u767E\u5206\u6BD4\u9632\u5FA1",
+            value: "c3"
+        }, {
+            label: "\u66B4\u51FB\u7387",
+            value: "c4"
+        }, {
+            label: "\u7206\u4F24",
+            value: "c5"
+        }, {
+            label: "\u6CBB\u7597\u91CF",
+            value: "c6"
+        }, {
+            label: "\u6548\u679C\u547D\u4E2D",
+            value: "c7"
+        }]
+    }, {
+        value: 4,
+        label: "\u811A\u90E8",
+        children: [{
+            label: "\u767E\u5206\u6BD4\u751F\u547D",
+            value: "d1"
+        }, {
+            label: "\u767E\u5206\u6BD4\u653B\u51FB",
+            value: "d2"
+        }, {
+            label: "\u767E\u5206\u6BD4\u9632\u5FA1",
+            value: "d3"
+        }, {
+            label: "\u901F\u5EA6",
+            value: "d4"
+        }]
+    }, {
+        value: 5,
+        label: "\u4F4D\u9762\u7403",
+        children: [{
+            label: "\u767E\u5206\u6BD4\u751F\u547D",
+            value: "e1"
+        }, {
+            label: "\u767E\u5206\u6BD4\u653B\u51FB",
+            value: "e2"
+        }, {
+            label: "\u767E\u5206\u6BD4\u9632\u5FA1",
+            value: "e3"
+        }, {
+            label: "\u7269\u7406\u4F24\u5BB3",
+            value: "e4"
+        }, {
+            label: "\u706B\u4F24",
+            value: "e5"
+        }, {
+            label: "\u51B0\u4F24",
+            value: "e6"
+        }, {
+            label: "\u96F7\u4F24",
+            value: "e7"
+        }, {
+            label: "\u98CE\u4F24",
+            value: "e8"
+        }, {
+            label: "\u91CF\u5B50\u4F24\u5BB3",
+            value: "e9"
+        }, {
+            label: "\u865A\u6570\u4F24\u5BB3",
+            value: "e10"
+        }]
+    }, {
+        value: 6,
+        label: "\u8FDE\u63A5\u7EF3",
+        children: [{
+            label: "\u51FB\u7834\u7279\u653B",
+            value: "f1"
+        }, {
+            label: "\u5145\u80FD",
+            value: "f2"
+        }, {
+            label: "\u767E\u5206\u6BD4\u751F\u547D",
+            value: "f3"
+        }, {
+            label: "\u767E\u5206\u6BD4\u653B\u51FB",
+            value: "f4"
+        }, {
+            label: "\u767E\u5206\u6BD4\u9632\u5FA1",
+            value: "f5"
+        }]
+    }]
+    , sl = [{
         label: "\u56FA\u5B9A\u751F\u547D",
-        value: "a1"
-    }]
-}, {
-    value: 2,
-    label: "\u624B\u90E8",
-    children: [{
-        label: "\u56FA\u5B9A\u653B\u51FB",
-        value: "b1"
-    }]
-}, {
-    value: 3,
-    label: "\u8EAF\u5E72",
-    children: [{
-        label: "\u767E\u5206\u6BD4\u751F\u547D",
-        value: "c1"
+        value: 1
     }, {
         label: "\u56FA\u5B9A\u653B\u51FB",
-        value: "c2"
+        value: 2
     }, {
-        label: "\u767E\u5206\u6BD4\u9632\u5FA1",
-        value: "c3"
+        label: "\u56FA\u5B9A\u9632\u5FA1",
+        value: 3
     }, {
-        label: "\u66B4\u51FB\u7387",
-        value: "c4"
-    }, {
-        label: "\u7206\u4F24",
-        value: "c5"
-    }, {
-        label: "\u6CBB\u7597\u91CF",
-        value: "c6"
-    }, {
-        label: "\u6548\u679C\u547D\u4E2D",
-        value: "c7"
-    }]
-}, {
-    value: 4,
-    label: "\u811A\u90E8",
-    children: [{
         label: "\u767E\u5206\u6BD4\u751F\u547D",
-        value: "d1"
+        value: 4
     }, {
         label: "\u767E\u5206\u6BD4\u653B\u51FB",
-        value: "d2"
+        value: 5
     }, {
         label: "\u767E\u5206\u6BD4\u9632\u5FA1",
-        value: "d3"
+        value: 6
     }, {
         label: "\u901F\u5EA6",
-        value: "d4"
-    }]
-}, {
-    value: 5,
-    label: "\u4F4D\u9762\u7403",
-    children: [{
-        label: "\u767E\u5206\u6BD4\u751F\u547D",
-        value: "e1"
+        value: 7
     }, {
-        label: "\u767E\u5206\u6BD4\u653B\u51FB",
-        value: "e2"
+        label: "\u66B4\u51FB\u7387",
+        value: 8
     }, {
-        label: "\u767E\u5206\u6BD4\u9632\u5FA1",
-        value: "e3"
+        label: "\u66B4\u51FB\u4F24\u5BB3",
+        value: 9
     }, {
-        label: "\u7269\u7406\u4F24\u5BB3",
-        value: "e4"
+        label: "\u6548\u679C\u547D\u4E2D",
+        value: 10
     }, {
-        label: "\u706B\u4F24",
-        value: "e5"
+        label: "\u6548\u679C\u62B5\u6297",
+        value: 11
     }, {
-        label: "\u51B0\u4F24",
-        value: "e6"
-    }, {
-        label: "\u96F7\u4F24",
-        value: "e7"
-    }, {
-        label: "\u98CE\u4F24",
-        value: "e8"
-    }, {
-        label: "\u91CF\u5B50\u4F24\u5BB3",
-        value: "e9"
-    }, {
-        label: "\u865A\u6570\u4F24\u5BB3",
-        value: "e10"
-    }]
-}, {
-    value: 6,
-    label: "\u8FDE\u63A5\u7EF3",
-    children: [{
         label: "\u51FB\u7834\u7279\u653B",
-        value: "f1"
-    }, {
-        label: "\u5145\u80FD",
-        value: "f2"
-    }, {
-        label: "\u767E\u5206\u6BD4\u751F\u547D",
-        value: "f3"
-    }, {
-        label: "\u767E\u5206\u6BD4\u653B\u51FB",
-        value: "f4"
-    }, {
-        label: "\u767E\u5206\u6BD4\u9632\u5FA1",
-        value: "f5"
-    }]
-}]
-  , sl = [{
-    label: "\u56FA\u5B9A\u751F\u547D",
-    value: 1
-}, {
-    label: "\u56FA\u5B9A\u653B\u51FB",
-    value: 2
-}, {
-    label: "\u56FA\u5B9A\u9632\u5FA1",
-    value: 3
-}, {
-    label: "\u767E\u5206\u6BD4\u751F\u547D",
-    value: 4
-}, {
-    label: "\u767E\u5206\u6BD4\u653B\u51FB",
-    value: 5
-}, {
-    label: "\u767E\u5206\u6BD4\u9632\u5FA1",
-    value: 6
-}, {
-    label: "\u901F\u5EA6",
-    value: 7
-}, {
-    label: "\u66B4\u51FB\u7387",
-    value: 8
-}, {
-    label: "\u66B4\u51FB\u4F24\u5BB3",
-    value: 9
-}, {
-    label: "\u6548\u679C\u547D\u4E2D",
-    value: 10
-}, {
-    label: "\u6548\u679C\u62B5\u6297",
-    value: 11
-}, {
-    label: "\u51FB\u7834\u7279\u653B",
-    value: 12
-}];
-const p = r=>(el("data-v-48830cdc"),
-r = r(),
-al(),
-r)
-  , bl = {
-    key: 0,
-    class: "scrolling-notice"
-}
-  , nl = {
-    class: "commuse"
-}
-  , cl = {
-    class: "commuse-item"
-}
-  , dl = p(()=>a("div", {
-    class: "text-slate-900 dark:text-slate-100"
-}, " \u9057\u5668: ", -1))
-  , il = {
-    class: "commuse-item"
-}
-  , rl = p(()=>a("div", {
-    class: "text-slate-900 dark:text-slate-100"
-}, " \u4E3B\u5C5E\u6027: ", -1))
-  , ml = {
-    class: "commuse-item"
-}
-  , pl = p(()=>a("div", {
-    class: "text-slate-900 dark:text-slate-100"
-}, " \u5C5E\u6027\u5C0F\u8BCD\u6761: ", -1))
-  , _l = {
-    class: "smallho"
-}
-  , hl = {
-    class: "text-slate-900 dark:text-slate-100"
-}
-  , Cl = {
-    class: "commuse-item"
-}
-  , Fl = p(()=>a("div", {
-    class: "text-slate-900 dark:text-slate-100"
-}, " \u5F3A\u5316\u7B49\u7EA7: ", -1))
-  , fl = {
-    class: "generate"
-}
-  , Vl = "\u8be5\u5de5\u5177\u4e8egithub\u5f00\u6e90\uff0c\u8c28\u9632\u5708\u94b1\u5012\u5356\uff01"
-  , xl = T({
-    __name: "holyrelic",
-    setup(r) {
-        const {text: yl, isSupported: g, copy: A} = z()
-          , U = G();
-        var t = o("")
-          , s = o("")
-          , b = o(0);
-        o(),
-        o();
-        const n = H(()=>{
-            var v = "";
-            f.value.forEach(c=>{
-                c.isCheck && (v = v + ` ${c.value}:${c.num}`)
-            }
-            );
-            const e = s.value.slice(1);
-            return `/give ${t.value} lv${b.value} s${e}${v} `
-        }
-        )
-          , N = k(ol)
-          , S = k(tl);
-        var w = sl.map(v=>({
-            isCheck: !1,
-            num: 1,
-            label: v.label,
-            value: v.value
-        }));
-        const f = o(w)
-          , I = ul;
-        function $() {
-            A(n.value),
-            g && I.success(`\u5DF2\u590D\u5236${n.value}`)
-        }
-        const j = J("send")
-          , V = o(!0);
-        return K(()=>{
-            setTimeout(()=>{
-                V.value = !0
-            }
-            , 1e3)
-        }
-        ),
-        (v,e)=>{
-            const c = O("marquee")
-              , x = P
-              , L = Q
-              , y = R
-              , q = W
-              , E = X;
-            return i(),
-            m("div", null, [V.value ? (i(),
-            m("div", bl, [u(c, {
-                behavior: "scroll",
-                direction: "left"
-            }, {
-                default: h(()=>[F(D(Vl))]),
-                _: 1
-            })])) : B("", !0), a("div", nl, [a("div", cl, [dl, u(x, {
-                "allow-search": "",
-                modelValue: d(t),
-                "onUpdate:modelValue": e[0] || (e[0] = l=>C(t) ? t.value = l : t = l),
-                options: N,
-                placeholder: "\u8BF7\u8F93\u5165\u7269\u54C1",
-                filterable: ""
-            }, null, 8, ["modelValue", "options"])]), a("div", il, [rl, u(x, {
-                "allow-search": "",
-                modelValue: d(s),
-                "onUpdate:modelValue": e[1] || (e[1] = l=>C(s) ? s.value = l : s = l),
-                options: S,
-                placeholder: "\u8BF7\u8F93\u5165\u4E3B\u5C5E\u6027",
-                filterable: ""
-            }, null, 8, ["modelValue", "options"])]), a("div", ml, [pl, a("div", _l, [(i(!0),
-            m(Y, null, Z(f.value, (l,M)=>(i(),
-            m("div", {
-                class: "smallho-item",
-                key: M
-            }, [u(L, {
-                modelValue: l.isCheck,
-                "onUpdate:modelValue": _=>l.isCheck = _
-            }, null, 8, ["modelValue", "onUpdate:modelValue"]), a("div", hl, D(l.label), 1), a("div", null, [u(y, {
-                placeholder: "",
-                modelValue: l.num,
-                "onUpdate:modelValue": _=>l.num = _,
-                min: 1
-            }, null, 8, ["modelValue", "onUpdate:modelValue"])])]))), 128))])]), a("div", Cl, [Fl, u(y, {
-                placeholder: "",
-                modelValue: d(b),
-                "onUpdate:modelValue": e[2] || (e[2] = l=>C(b) ? b.value = l : b = l),
-                min: 0,
-                max: 20
-            }, null, 8, ["modelValue"])]), a("div", fl, [u(q, {
-                modelValue: n.value,
-                "onUpdate:modelValue": e[3] || (e[3] = l=>n.value = l),
-                placeholder: ""
-            }, null, 8, ["modelValue"]), u(E, {
-                type: "outline",
-                onClick: $
-            }, {
-                default: h(()=>[F("\u590D\u5236")]),
-                _: 1
-            }), d(U).isLogin ? (i(),
-            ll(E, {
-                key: 0,
-                type: "outline",
-                onClick: e[4] || (e[4] = l=>d(j)(n.value))
-            }, {
-                default: h(()=>[F("\u6267\u884C")]),
-                _: 1
-            })) : B("", !0)])])])
-        }
+        value: 12
+    }];
+const p = r => (el("data-v-48830cdc"),
+    r = r(),
+    al(),
+    r)
+    , bl = {
+        key: 0,
+        class: "scrolling-notice"
     }
-});
+    , nl = {
+        class: "commuse"
+    }
+    , cl = {
+        class: "commuse-item"
+    }
+    , dl = p(() => a("div", {
+        class: "text-slate-900 dark:text-slate-100"
+    }, " \u9057\u5668: ", -1))
+    , il = {
+        class: "commuse-item"
+    }
+    , rl = p(() => a("div", {
+        class: "text-slate-900 dark:text-slate-100"
+    }, " \u4E3B\u5C5E\u6027: ", -1))
+    , ml = {
+        class: "commuse-item"
+    }
+    , pl = p(() => a("div", {
+        class: "text-slate-900 dark:text-slate-100"
+    }, " \u5C5E\u6027\u5C0F\u8BCD\u6761: ", -1))
+    , _l = {
+        class: "smallho"
+    }
+    , hl = {
+        class: "text-slate-900 dark:text-slate-100"
+    }
+    , Cl = {
+        class: "commuse-item"
+    }
+    , Fl = p(() => a("div", {
+        class: "text-slate-900 dark:text-slate-100"
+    }, " \u5F3A\u5316\u7B49\u7EA7: ", -1))
+    , fl = {
+        class: "generate"
+    }
+    , Vl = "\u8be5\u5de5\u5177\u4e8egithub\u5f00\u6e90\uff0c\u8c28\u9632\u5708\u94b1\u5012\u5356\uff01"
+    , xl = T({
+        __name: "holyrelic",
+        setup(r) {
+            const { text: yl, isSupported: g, copy: A } = z()
+                , U = G();
+            var t = o("")
+                , s = o("")
+                , b = o(0);
+            o(),
+                o();
+            const n = H(() => {
+                var v = "";
+                f.value.forEach(c => {
+                    c.isCheck && (v = v + ` ${c.value}:${c.num}`)
+                }
+                );
+                const e = s.value.slice(1);
+                return `/give ${t.value} lv${b.value} s${e}${v} `
+            }
+            )
+                , N = k(ol)
+                , S = k(tl);
+            var w = sl.map(v => ({
+                isCheck: !1,
+                num: 1,
+                label: v.label,
+                value: v.value
+            }));
+            const f = o(w)
+                , I = ul;
+            function $() {
+                A(n.value),
+                    g && I.success(`\u5DF2\u590D\u5236${n.value}`)
+            }
+            const j = J("send")
+                , V = o(!0);
+            return K(() => {
+                setTimeout(() => {
+                    V.value = !0
+                }
+                    , 1e3)
+            }
+            ),
+                (v, e) => {
+                    const c = O("marquee")
+                        , x = P
+                        , L = Q
+                        , y = R
+                        , q = W
+                        , E = X;
+                    return i(),
+                        m("div", null, [V.value ? (i(),
+                            m("div", bl, [u(c, {
+                                behavior: "scroll",
+                                direction: "left"
+                            }, {
+                                default: h(() => [F(D(Vl))]),
+                                _: 1
+                            })])) : B("", !0), a("div", nl, [a("div", cl, [dl, u(x, {
+                                "allow-search": "",
+                                modelValue: d(t),
+                                "onUpdate:modelValue": e[0] || (e[0] = l => C(t) ? t.value = l : t = l),
+                                options: N,
+                                placeholder: "\u8BF7\u8F93\u5165\u7269\u54C1",
+                                filterable: ""
+                            }, null, 8, ["modelValue", "options"])]), a("div", il, [rl, u(x, {
+                                "allow-search": "",
+                                modelValue: d(s),
+                                "onUpdate:modelValue": e[1] || (e[1] = l => C(s) ? s.value = l : s = l),
+                                options: S,
+                                placeholder: "\u8BF7\u8F93\u5165\u4E3B\u5C5E\u6027",
+                                filterable: ""
+                            }, null, 8, ["modelValue", "options"])]), a("div", ml, [pl, a("div", _l, [(i(!0),
+                                m(Y, null, Z(f.value, (l, M) => (i(),
+                                    m("div", {
+                                        class: "smallho-item",
+                                        key: M
+                                    }, [u(L, {
+                                        modelValue: l.isCheck,
+                                        "onUpdate:modelValue": _ => l.isCheck = _
+                                    }, null, 8, ["modelValue", "onUpdate:modelValue"]), a("div", hl, D(l.label), 1), a("div", null, [u(y, {
+                                        placeholder: "",
+                                        modelValue: l.num,
+                                        "onUpdate:modelValue": _ => l.num = _,
+                                        min: 1
+                                    }, null, 8, ["modelValue", "onUpdate:modelValue"])])]))), 128))])]), a("div", Cl, [Fl, u(y, {
+                                        placeholder: "",
+                                        modelValue: d(b),
+                                        "onUpdate:modelValue": e[2] || (e[2] = l => C(b) ? b.value = l : b = l),
+                                        min: 0,
+                                        max: 20
+                                    }, null, 8, ["modelValue"])]), a("div", fl, [u(q, {
+                                        modelValue: n.value,
+                                        "onUpdate:modelValue": e[3] || (e[3] = l => n.value = l),
+                                        placeholder: ""
+                                    }, null, 8, ["modelValue"]), u(E, {
+                                        type: "outline",
+                                        onClick: $
+                                    }, {
+                                        default: h(() => [F("\u590D\u5236")]),
+                                        _: 1
+                                    }), d(U).isLogin ? (i(),
+                                        ll(E, {
+                                            key: 0,
+                                            type: "outline",
+                                            onClick: e[4] || (e[4] = l => d(j)(n.value))
+                                        }, {
+                                            default: h(() => [F("\u6267\u884C")]),
+                                            _: 1
+                                        })) : B("", !0)])])])
+                }
+        }
+    });
 var Il = vl(xl, [["__scopeId", "data-v-48830cdc"]]);
-export {Il as default};
+export { Il as default };
